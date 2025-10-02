@@ -8,6 +8,10 @@ public class Main {
         calc_mul.setNumbers(10,2);
         calc_mul.multiply();
         calc_mul.displayResult("*");
+        AdvancedCalculator calc_div = new AdvancedCalculator();
+        calc_div.setNumbers(20,2);
+        calc_div.divide();
+        calc_div.displayResult("/");
 
     }
 }
