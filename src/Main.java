@@ -13,7 +13,7 @@ public class Main {
         calc_div.divide();
         calc_div.displayResult("/");
         AdvancedCalculator calc_mod = new AdvancedCalculator();
-        calc_mod.setNumbers(20,2);
+        calc_mod.setNumbers(7,3);
         calc_mod.mod();
         calc_mod.displayResult("%");
 
