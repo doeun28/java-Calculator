@@ -11,3 +11,4 @@ public class ScientificCalculator extends AdvancedCalculator{
         return result;
     }
 }
+
