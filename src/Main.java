@@ -17,5 +17,10 @@ public class Main {
         calc_mod.mod();
         calc_mod.displayResult("%");
 
+        AdvancedScientificCalculator calc_fac = new AdvancedScientificCalculator();
+        calc_fac.setNumber(4);
+        calc_fac.factorial();
+        calc_fac.displayResult("!");
+
     }
 }
