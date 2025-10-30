@@ -11,13 +11,13 @@ class AdvancedScientificCalculatorTest {
 
         @BeforeEach
         void setUp() {
-            AdvancedScientificCalculator fac_calc = new AdvancedScientificCalculator(); // 객체 생성
-            fac_calc .setNumber(4);
+            fac_calc = new AdvancedScientificCalculator(); // 객체 생성
+            fac_calc.setNumber(4);
 
         }
 
         @Test
-        void fac() {
+        void factorial() {
             assertEquals(24, fac_calc.factorial());
         }
     }
