@@ -11,8 +11,8 @@ public class AdvancedScientificCalculator extends ScientificCalculator{
 
     public int factorial() {
         result = num1;
-        for (int i = num1; i == 1; i--) {
-            result = result * i;
+        for (int i = num1 - 1; i >= 2; i--) {
+            result *= i;
         }
         return result;
     }
